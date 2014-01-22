@@ -2,3 +2,5 @@ pkg/*
 *.gem
 .bundle
 Gemfile.lock
+bower_components
+vendor/viewer

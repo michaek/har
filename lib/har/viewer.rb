@@ -48,7 +48,7 @@ module HAR
 
     def create_root
       progress("Creating viewer...") {
-        viewer = File.expand_path("../viewer", __FILE__)
+        viewer = File.expand_path("../../../vendor/viewer", __FILE__)
         tmp_dir = Dir.mktmpdir("harviewer")
 
         at_exit { FileUtils.rm_rf tmp_dir }

@@ -9,6 +9,13 @@ Install
 
     gem install har
 
+Viewer Setup
+============
+
+In this fork, the viewer is removed from the gem and loaded via bower. This works if you're willing to run `thor viewer:update` from the gem directory, but it seems like the wrong way to go for providing the harviewer dependency.
+
+A better approach may be to make a harviewer Ruby port that includes the thor task and mirrors releases of the harviewer library.
+
 Usage
 =====
 
